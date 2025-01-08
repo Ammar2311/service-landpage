@@ -19,6 +19,8 @@ header{
 
     display: flex;
     justify-content: space-between;
+
+    border-bottom: 1px solid white;
 }
 header *{
 height: 100%;
@@ -75,20 +77,22 @@ align-items: center;
     display: flex;
     justify-content: space-between;
 }
-.first .text,.picture{
+.text,.picture{
    width: 46%;
    height: 100%;
-   background-color:gray;
-    
+   /* background-color:gray; */
+   color:white;
 }
 .text{
    /* padding: 30px; */
    display: flex;
    flex-flow: nowrap column;
    justify-content: center;
-   align-items
+   align-items:center;
 }
-
+.text *{
+    padding: 10px;
+}
 
 .features{
    width: 100%;
@@ -96,3 +100,15 @@ align-items: center;
    background-color: bisque;
 
 }
+.features h3{
+   text-align: center;
+   padding:10px;
+   padding-top: 70px;
+
+}
+
+.picture img{
+  
+
+}
+
