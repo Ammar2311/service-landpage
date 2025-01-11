@@ -104,7 +104,23 @@ align-items: center;
    text-align: center;
    padding:10px;
    padding-top: 70px;
+   padding-bottom: 40px;
+}
+.features_box{
+  display: flex;
+  justify-content: space-around;
 
+}
+.feature{
+   width: 23%;
+   text-align: center;
+}
+.feature i{
+    font-size:36px;
+    color:#223047;
+}
+.feature *{
+    margin-bottom:15px;
 }
 
 .picture img{
